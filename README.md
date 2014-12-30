@@ -1,15 +1,15 @@
-<h1>Framework<h1>
+Framework
 =========
 
-<h2>Framework de Recomendação para Lojas Virtuais <h2>
+Framework de Recomendação para Lojas Virtuais
+=========
+Objetivo: Construir um framework genérico de recomendação de produtos para lojas virtuais.
 
-<p>Objetivo: Construir um framework genérico de recomendação de produtos para lojas virtuais.
+<br>
 
+Passo-a-Passo de instalação e utilização:
 
-
-Este arquivo apresentará um passo-a-passo da instalação do framework no servidor da loja virtual.
-
-1º Passo: Abra o arquivo 'dados_conexao.php' e altere os campos "BD_Servidor", "BD_Usuario", "BD_Senha" para os dados correspondentes do banco de dados de seu servidor.
+1º Passo: Abra o arquivo 'dados_conexao.php' e altere os campos "BD_Servidor", "BD_Usuario", "BD_Senha" para os dados correspondentes ao banco de dados de seu servidor.
 
 2º Passo: Copie a pasta toda para o servidor da loja virtual. Lembre-se que onde colocar a pasta será o endereço para acessar o framework depois. Por exemplo: www.lojavirtual.com.br/framework
 
@@ -20,5 +20,4 @@ Este arquivo apresentará um passo-a-passo da instalação do framework no servi
 5º Passo: Chamando a função de recomendações na sua loja virtual:
 No PHP chame o arquivo "recomende.php" com a chamada: require_once("bd_funcoes.php");
 Após isto chame a função "Recomende" passando como parâmetro o código do cliente e a quantidade de recomendações que deseja receber. Como no exemplo: Recomende(1, 4);
-
-<p>
+Isso irá retornar um array com os 4 produtos recomendados pelo framework.
