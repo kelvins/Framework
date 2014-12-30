@@ -1,0 +1,12 @@
+### COISAS PARA FAZER AINDA ###
+
+OK - Validar as recomendações na tela de recomendacao.php, validar se os campos da configuração estão preenchidos, senão desabilitar a seleção daquela recomendação.
+OK - Validar a quantidade com 'limit' se ele não achou a quantidade solicitada pelo programador, "FAZER O QUE?", fazer outra busca
+OK - Validar para só entrar no sistema se tiver efetuado o login.
+- Validar se tem algum campo preenchido errado na configuração, na hora de buscar no banco pra não dar estouro, tratar no retorno como 'null'.
+- Validar para quando chamar o index.php ir para login.
+
+
+RECOMENDAÇÕES PARA FAZER AINDA
+- Recomendar com datas especificas de inicio e fim !!!???
+- Recomendar produtos de acordo com o nome Ex.: CDs ou DVDs com nome Nirvana no titulo ou descrição !!!???

@@ -1,4 +1,4 @@
-framework
+Framework
 =========
 
 Framework de Recomendação para Lojas Virtuais
